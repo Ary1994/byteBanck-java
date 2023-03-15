@@ -8,5 +8,7 @@ public class ControlBonificacion {
 		System.out.println("calculo actual "+this.suma);
 		return suma;
 	}
-	
+	public double getSuma() {
+	    return this.suma;
+	}
 }
